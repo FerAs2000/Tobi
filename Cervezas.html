@@ -1,0 +1,256 @@
+<!LicoresModelo>
+<html lang="es">
+
+<head> 
+
+   <meta charset="UTF-8"/>
+   <title>Licores Modelo | Cervezas</title>
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+ <body> 
+ 
+ <!---Funciones--->
+     <script>
+         var currentValue = 0;
+         function Add(valueToAdd){
+             currentValue += valueToAdd;
+		     valor = currentValue
+		     if (valor+1 <= 0) {
+                 currentValue = 0;
+                } else {
+                     document.getElementById('number').innerHTML = currentValue;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue2 = 0;
+         function Add2(valueToAdd2){
+             currentValue2 += valueToAdd2;
+		     valor2 = currentValue2
+		     if (valor2+1 <= 0) {
+                 currentValue2 = 0;
+                } else {
+                     document.getElementById('number2').innerHTML = currentValue2;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue3 = 0;
+         function Add3(valueToAdd3){
+             currentValue3 += valueToAdd3;
+		     valor3 = currentValue3
+		     if (valor3+1 <= 0) {
+                 currentValue3 = 0;
+                } else {
+                     document.getElementById('number3').innerHTML = currentValue3;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue4 = 0;
+         function Add4(valueToAdd4){
+             currentValue4 += valueToAdd4;
+		     valor4 = currentValue4
+		     if (valor4+1 <= 0) {
+                 currentValue4 = 0;
+                } else {
+                     document.getElementById('number4').innerHTML = currentValue4;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue5 = 0;
+         function Add5(valueToAdd5){
+             currentValue5 += valueToAdd5;
+		     valor5 = currentValue5
+		     if (valor5+1 <= 0) {
+                 currentValue5 = 0;
+                } else {
+                     document.getElementById('number5').innerHTML = currentValue5;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue6 = 0;
+         function Add6(valueToAdd6){
+             currentValue6 += valueToAdd6;
+		     valor6 = currentValue6
+		     if (valor6+1 <= 0) {
+                 currentValue6 = 0;
+                } else {
+                     document.getElementById('number6').innerHTML = currentValue6;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue7 = 0;
+         function Add7(valueToAdd7){
+             currentValue7 += valueToAdd7;
+		     valor7 = currentValue7
+		     if (valor7+1 <= 0) {
+                 currentValue7 = 0;
+                } else {
+                     document.getElementById('number7').innerHTML = currentValue7;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue8 = 0;
+         function Add8(valueToAdd8){
+             currentValue8 += valueToAdd8;
+		     valor8 = currentValue8
+		     if (valor8+1 <= 0) {
+                 currentValue8 = 0;
+                } else {
+                     document.getElementById('number8').innerHTML = currentValue8;
+                    }
+            };
+     </script>
+	 
+     <script>
+         var currentValue9 = 0;
+         function Add9(valueToAdd9){
+             currentValue9 += valueToAdd9;
+		     valor9 = currentValue9
+		     if (valor9+1 <= 0) {
+                 currentValue9 = 0;
+                } else {
+                     document.getElementById('number9').innerHTML = currentValue9;
+                    }
+            };
+     </script>
+  <!---End Funciones--->
+ 
+      <div class="header"> <!-- Parte superior -->
+         <div class="container"> 
+	         <div class="navbar">
+	         <div class="logo">
+		         <img src="images/logo.svg" width=200px>
+		     </div>
+			 <div class="search-box">
+			      <input class="search-txt" type="text" name="" placeholder="Buscador">
+				  <img src="images/lupa.svg" width=20px  height=40px>
+			 </div>
+		     <nav>
+		         <ul>
+			         <li><a href="index.html">Inicio</a></li>
+			         <li><a href="Productos.html">Productos</a></li>
+				     <li><a href="">Contacto</a></li>
+			     </ul>
+		     </nav>
+		     <img src="images/bolsa.svg" width=90px height=90px>
+	         </div>
+         </div>
+     </div>
+
+<!--- Productos Categorias --->
+
+        
+	  <div class="categories">
+	  <div class="small-conter">
+	  <h2 class="titlee">Cervezas</h2>
+	     <div class="row">
+		     <div class="col-5">
+				 <h4>Club Colombia Roja</h4>
+				 <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add(1)">+</button> 
+                 <a class="boxed" id="number">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div>
+			 <div class="col-5">
+			     <h4>Club Colombia Dorada</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add2(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add2(1)">+</button> 
+                 <a class="boxed" id="number2">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div>
+			 <div class="col-5">
+			     <h4>Club Colombia Negra</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add3(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add3(1)">+</button> 
+                 <a class="boxed" id="number3">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div> 
+			 <div class="col-5">
+				 <h4>Poker</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add4(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add4(1)">+</button> 
+                 <a class="boxed" id="number4">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div> 
+			 <div class="col-5">
+				 <h4>Pokeron</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add5(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add5(1)">+</button> 
+                 <a class="boxed" id="number5">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div>
+			 <div class="col-5">
+				 <h4>Smirnoff Ice</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add6(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add6(1)">+</button> 
+                 <a class="boxed" id="number6">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div>
+			 <div class="col-5">
+				 <h4>Aguila</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add7(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add7(1)">+</button> 
+                 <a class="boxed" id="number7">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div> 
+			 <div class="col-5">
+				 <h4>Corona</h4>
+			     <img src="images/beer.jpg" width=50px> <br>
+				 <button class="btn-minus" onClick="Add8(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add8(1)">+</button> 
+                 <a class="boxed" id="number8">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div>
+			 <div class="col-5">
+				 <h4>Budweiser</h4>
+			     <img src="images/beer.jpg" width=200px> <br>
+				 <button class="btn-minus" onClick="Add9(-1)">-</button>
+				 <button class="btn-plus"  onClick="Add9(1)">+</button> 
+                 <a class="boxed" id="number9">0</a>
+				 <button class="btn-agregar">Agregar a la bolsa</button>
+			 </div>
+		 </div>
+	  </div>
+	  </div>
+
+	 <!--- la parte de abajo, el pie de pagina  --->
+	 <div class="footer">
+		 <div class="container2">
+             <div class="row2"> 	<!--- Esto es para poner varias columnas--->
+                 <div class="footer-col-1">
+					 <h3> Licores Modelo <img src="images/Todos_los_derechos_reservados.svg" width=12px> 2021 </h3>
+				 </div> 
+			     <div id="wrapperDiv">
+                     <div id="div2" style="padding:5px;float:left"><img src="images/prohibido.svg" width=70px></div>
+                     <div id="div1" style="padding:10px;float:left"><h3> Prohíbase el expendio de <BR> bebidas embriagantes <BR> a menores de edad. </h3></div>
+                 </div> 
+			 </div> 
+	     </div>
+	 </div>
+ </body>
+</html>
