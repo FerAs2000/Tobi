@@ -1,7 +1,3 @@
-/*!
- * Simple Age Verification (https://github.com/Herudea/age-verification)
- */
-
 var modal_content,
 modal_screen;
 
