@@ -653,7 +653,7 @@ for (let i=0; i < cartsDisponibilidad.length; i++){
 	 let Disponible1 = products[UbicaProducto1].Disponible
 	 
 	 if(Disponible1 == "No"){
-		 document.getElementById(cartsDisponibilidad[i].id).style.display = "initial"
+		 document.getElementById(cartsDisponibilidad[i].id).style.display = "block"
 	 }
 }
 
