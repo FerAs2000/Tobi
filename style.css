@@ -599,7 +599,7 @@ th {
 }
 
 .nombproducto{
-	display:flex;
+	display:block;
 	margin:auto;
 	justify-content: space-around;
 	font-size: 20px;
