@@ -437,7 +437,7 @@ let products = [
 	Precio: "3.000",
 	inCart: 0,
 	ElemntoID: 'Prod47',
-	Disponible: 'Si'
+	Disponible: 'No'
 },
 {
 	name: "Aguila Light",
