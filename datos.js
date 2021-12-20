@@ -640,7 +640,7 @@ let products = [
 {
 	name: "Old Parr",
 	tag:  'Oldparr',
-	price: 0,
+	price: 1,
 	Precio: " ",
 	inCart: 0,
 	ElemntoID: 'Prod70',
