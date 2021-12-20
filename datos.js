@@ -645,6 +645,15 @@ let products = [
 	inCart: 0,
 	ElemntoID: 'Prod70',
 	Disponible: 'No'
+},
+{
+	name: "John Thomas",
+	tag:  'Johnthomas',
+	price: 1,
+	Precio: " ",
+	inCart: 0,
+	ElemntoID: 'Prod71',
+	Disponible: 'No'
 }
 ];
 
