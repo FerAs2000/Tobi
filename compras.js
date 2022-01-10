@@ -250,7 +250,7 @@ function wpp(wppl){
 		productoswpp += TodosPorductos[i].inCart+"%20"+TodosPorductos[i].name.replace(/\s/g, '%20')+"%0D%0A";
 	}
 
-	wppl.setAttribute('href', 'https://wa.me/573173832520?text=Hola%2C%20me%20gustar%C3%ADa%20ordenar%3A%0D%0A%0A'+productoswpp+'%0AEl%20costo%20total%20de%20la%20compra%20es%20%24'+cartCost+'%20COP'+'%0D%0A%0AMi%20direcci%c3%b3n%20es%3A');
+	wppl.setAttribute('href', 'https://wa.me/573024853030?text=Hola%2C%20me%20gustar%C3%ADa%20ordenar%3A%0D%0A%0A'+productoswpp+'%0AEl%20costo%20total%20de%20la%20compra%20es%20%24'+cartCost+'%20COP'+'%0D%0A%0AMi%20direcci%c3%b3n%20es%3A');
 	}
 }
 
