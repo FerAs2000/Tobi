@@ -12,7 +12,7 @@ let products = [
 	Precio: "3.000",
 	inCart: 0,
 	ElemntoID: 'Prod0',
-	Disponible: 'No'
+	Disponible: 'Si'
 },
 {
 	name: 'Club Colombia Dorada',
