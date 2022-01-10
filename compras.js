@@ -240,7 +240,7 @@ function wpp(wppl){
 	cartItems = JSON.parse(cartItems);
 	
 	if(cartItems == null){
-		wppl.setAttribute('href','https://wa.me/573173832520?text=Hola%2C%20Licores%20Modelo%2E')
+		wppl.setAttribute('href','https://wa.me/573024853030?text=Hola%2C%20Licores%20Modelo%2E')
 	} else{
 	let cartCost = localStorage.getItem('totalCost');	
 	let TodosPorductos = Object.values(cartItems);
